@@ -1,0 +1,23 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Segredos e configurações locais
+.env
+
+# Datasets e dados processados
+data/
+
+# Arquivo gerado pelo notebook
+fraudradar_fila_alertas.csv
+
+# Modelos treinados
+*.joblib
+*.pkl
